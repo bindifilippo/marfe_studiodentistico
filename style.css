@@ -63,38 +63,38 @@ a{
 }
 
 .right {
-    width: 900 px;
-    margin-right: 200 px;
+    width: 700px;
+    margin-right: 100px;
 }
   
   img {
     display: block;
-    width: 100 %;
+    width: 100%;
     height: auto;  
-    border-radius: 5 %;
+    border-radius: 5%;
 }
 
 .left{
     display: flex;
     flex-direction: column;
-    margin-left: 50 px;
-    padding-right: 50 px;
+    margin-left: 50px;
+    padding-right: 50px;
 }
 
 .header{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5 rem;
-    line-height: 3.4 rem;
+    font-size: 3.5rem;
+    line-height: 3.4rem;
     font-weight:900;
-    margin:0 px;
+    margin:0px;
     width: auto;
 }
 
 .secondary-text {
     font-family: 'Cormorant Infant', serif;
     font-style: italic;
-    font-size: 2 rem;
-    margin-top:25 px;
+    font-size: 2rem;
+    margin-top:25px;
 }
 
 /* Container generale */
