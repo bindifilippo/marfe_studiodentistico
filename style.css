@@ -1,0 +1,401 @@
+*{
+   /* border: 1px solid red;*/
+   box-sizing: border-box;
+}
+
+/* Importazione dei font */
+body {
+    font-family: 'Hind Madurai', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #326450;
+}
+
+/* Stile dell'intestazione */
+header {
+    text-align: center;
+    padding: 20px 20px;
+    background: #326450;
+    color: #ffffff;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+/* Sezione Hero */
+.hero{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.hero.right{
+    justify-content: center;
+}
+
+.contatti {
+    width: 200px;
+    background: #FFD700;
+    color: #326450;
+    padding: 12px 24px;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.contatti:hover {
+    background: #48AB84;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.right {
+    width: 650px;
+}
+  
+  img {
+    display: block;
+    width: 100%;
+    height: auto;  
+    border-radius: 5%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 3.4rem;
+    font-weight:900;
+    margin:0px;
+}
+
+.secondary-text {
+    font-family: 'Cormorant Infant', serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin-top:25px;
+}
+
+/* Container generale */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* Titoli */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3rem;
+    color: #326450;
+    margin: 40px 0;
+}
+
+/* Testo di introduzione */
+.intro-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #326450;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+
+/* Layout dei servizi */
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 50px;
+    padding: 20px 0;
+}
+
+
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.service {
+    color: #F5F5F5;
+    background-color: #48AB84;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+    background-color:  #FFD700; 
+    color:#326450;
+}
+
+
+#prenotazione{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#prenotazione h2{
+   margin-bottom: -10px;
+}
+
+#prenotazione img {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#prenotazione img:hover {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    transform: translateY(-4px);
+}
+ 
+.image-section {
+  width: 800px;
+  margin: 100px auto;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Sezione contatti */
+.footer {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-around; 
+    width: 100%;
+    margin-top: 30px;
+    padding: 40px 20px;
+    background: #326450;
+    color: #ffffff;
+}
+
+.logo {
+    width: 50px;
+}
+  
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;  
+    margin-bottom:-20px;
+}
+
+
+.professione h3 {
+    margin-bottom: 0;
+}
+
+.professione h4 {
+    font-family: 'Cormorant Infant', serif; 
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.email-link {
+    color: #FFD700;  /* Colore del link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+}
+
+.email-link:hover {
+    color: white; /* Cambia colore al passaggio del mouse */
+    text-decoration: underline;
+}
+
+
+button {
+    background: #FFD700;
+    color: #326450;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #48AB84;
+    color: white;
+}
+
+
+/* Media query per schermi piccoli */
+@media (max-width: 768px) {
+
+    *{
+        /* border: 1px solid red;*/
+        box-sizing: border-box;
+     }
+
+
+     header h1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+
+    .left .header{
+        font-size: 2rem;
+        line-height: 2.4rem;
+        font-weight:900;
+    }
+
+    .left .secondary-text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight:500;
+    }
+
+    
+    .contatti {
+        width: 150px;
+        background: #FFD700;
+        color: #326450;
+        padding: 12px 24px;
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        cursor: pointer;
+        border-radius: 40px;
+        margin:0 auto;
+        margin-bottom: 50px;
+        transition: background 0.3s;
+    }
+    
+    .contatti:hover {
+        background: #48AB84;
+        color: white;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right{
+        width: 90%;
+    }
+
+    .container h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        text-align: center;
+        font-size: 2rem;
+        color: #326450;
+        margin: 20px 0;
+    }
+
+    .intro-text{
+        text-align: center;
+        font-size: 1.3rem;
+        color: #326450;
+        margin-bottom: 50px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    #prenotazione{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    #prenotazione h2{
+       font-size: 2rem;
+       margin-bottom: -10px;
+       margin-top: 0px;
+    }
+
+    .secondary-text{
+        font-size: 1.3rem;
+        line-height: 2rem;
+        font-weight:500;
+    }
+    
+    #prenotazione img {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    #prenotazione img:hover {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        transform: translateY(-4px);
+    }
+
+    .image-section {
+        width: 80%;
+        margin: 50px auto;
+      }
+      
+      .image-section img {
+          width: 100%;
+          height: auto;
+          display: block;
+      }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .professione .logo{
+        margin: 0 auto;
+    }
+
+    .recapiti{
+        margin-top:30px;
+    }
+}
+
