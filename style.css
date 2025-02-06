@@ -64,7 +64,7 @@ a{
 
 .right {
     width: 1000px;
-    margin-right: 250px;
+    margin-right: 150px;
 }
   
   img {
@@ -367,7 +367,7 @@ button:hover {
     }
 
     .secondary-text{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 2rem;
         font-weight:500;
     }
