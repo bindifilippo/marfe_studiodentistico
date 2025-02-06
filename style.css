@@ -1,5 +1,5 @@
 *{
-   /* border: 1px solid red;*/
+  /* border: 1px solid red;*/
    box-sizing: border-box;
 }
 
@@ -63,7 +63,8 @@ a{
 }
 
 .right {
-    width: 650px;
+    width: 1000px;
+    margin-right: 250px;
 }
   
   img {
@@ -86,6 +87,7 @@ a{
     line-height: 3.4rem;
     font-weight:900;
     margin:0px;
+    width: auto;
 }
 
 .secondary-text {
@@ -262,10 +264,13 @@ button:hover {
 @media (max-width: 768px) {
 
     *{
-        /* border: 1px solid red;*/
         box-sizing: border-box;
      }
 
+     html, body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
 
      header h1 {
         font-size: 1.2rem;
@@ -318,6 +323,14 @@ button:hover {
 
     .right{
         width: 90%;
+        margin-right: 0px;
+    }
+      
+      img {
+        display: block;
+        width: 100%;
+        height: auto;  
+        border-radius: 5%;
     }
 
     .container h2{
@@ -331,7 +344,7 @@ button:hover {
 
     .intro-text{
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         color: #326450;
         margin-bottom: 50px;
     }
@@ -354,7 +367,7 @@ button:hover {
     }
 
     .secondary-text{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 2rem;
         font-weight:500;
     }
